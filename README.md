@@ -1,4 +1,4 @@
-# 🌌 V.O.I.D. — Virtual Optimization & Internal Deletion
+# 🌌 V.O.I.D. (Virtual Optimization & Internal Deletion)
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=for-the-badge&logo=powershell)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
