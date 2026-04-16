@@ -30,21 +30,25 @@ O **V.O.I.D.** é um utilitário de linha de comando robusto para Windows, proje
 | **Logs de Sistema** | Remoção de logs de Update, CBS e Software Distribution. |
 
 > [!TIP]
-> **Aviso para usuários AMD:** O script vem configurado nativamente para NVIDIA. Se você utiliza uma placa de vídeo **AMD**, você mesmo pode realizar as mudanças no código para incluir os caminhos de cache específicos da marca (geralmente localizados em `%LocalAppData%\AMD\DxCache`). O código é modular e fácil de adaptar!
+> **Aviso para usuários AMD:** O script vem configurado nativamente para NVIDIA. Se você utiliza uma placa de vídeo **AMD**, você mesmo pode realizar as mudanças no código para incluir os caminhos de cache específicos da marca (geralmente localizados em `%LocalAppData%\AMD\DxCache`).
 
 ---
 
 ## 🛠️ Como Utilizar
 
-O V.O.I.D. foi desenhado para ser prático. Existem duas formas principais de execução:
+O V.O.I.D. já vem pronto para uso imediato. Não é necessário configurar scripts manualmente.
 
 ### 1. Execução via Arquivo .bat (Recomendado)
-Para maior praticidade, você pode executar o programa usando um arquivo **.bat**. Isso automatiza a elevação de privilégios e ignora restrições de política do PowerShell.
-* Crie um arquivo chamado `Limpar.bat` na mesma pasta do script.
-* Cole o código abaixo:
-```batch
-@echo off
-title Executando V.O.I.D.
-:: Força a execução como Administrador e ignora política de execução
-PowerShell -NoProfile -ExecutionPolicy Bypass -File "%~dp0VOID.ps1"
-pause
+Para facilitar, o repositório já inclui o arquivo `VOID.bat`. Ele automatiza a elevação de privilégios de administrador e ignora restrições de política do PowerShell.
+* **Basta clicar duas vezes no arquivo `VOID.bat` e confirmar a execução como administrador.**
+
+### 2. Download via Releases
+Para uma experiência mais limpa, você pode baixar a versão estável diretamente na aba [Releases](https://github.com/DanTottem/VOID/releases). O arquivo `.zip` contém apenas o essencial para a execução.
+
+---
+
+## ⚙️ Uso Avançado (Terminal)
+Caso prefira executar manualmente via PowerShell:
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\VOID.ps1
