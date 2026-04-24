@@ -1,5 +1,5 @@
 > ⚠️ Este projeto foi reescrito como aplicativo desktop em Flutter.
-> Acesse a nova versão: [V.O.I.D. Flutter]([link do novo repo](https://github.com/DanTottem/VOID-Cleaner))
+> Acesse a nova versão: [[V.O.I.D. Flutter](https://github.com/DanTottem/VOID-Cleaner)]
 > 
 # 🌌 V.O.I.D. (Virtual Optimization & Internal Deletion)
 
