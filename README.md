@@ -1,3 +1,6 @@
+> ⚠️ Este projeto foi reescrito como aplicativo desktop em Flutter.
+> Acesse a nova versão: [V.O.I.D. Flutter]([link do novo repo](https://github.com/DanTottem/VOID-Cleaner))
+> 
 # 🌌 V.O.I.D. (Virtual Optimization & Internal Deletion)
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?style=for-the-badge&logo=powershell)
